@@ -9,4 +9,4 @@ for num in numbers:
     elif num < first and num > second:
         second = num
 
-print("second_largest -", second)
+print("second_largest - ", second)
