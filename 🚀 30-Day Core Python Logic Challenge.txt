@@ -1,0 +1,166 @@
+🚀 30-Day Core Python Logic Challenge
+
+Goal: Improve logical thinking and interview confidence
+Daily Time: ~60 minutes
+
+Rules:
+- Write code yourself
+- Test with different inputs
+- Optimize after first solution
+
+---------------------------------------------
+
+WEEK 1: LOGIC FOUNDATIONS (Day 1–7)
+
+Day 1
+- Reverse a string (no slicing)
+- Check palindrome (string and number)
+- Count vowels, consonants, digits
+
+Day 2
+- Find largest and smallest in a list
+- Swap two numbers without temp variable
+- Count frequency of characters
+
+Day 3
+- Fibonacci series (iterative)
+- Prime number check
+- Print all primes up to N
+
+Day 4
+- Remove duplicates from list (keep order)
+- Find second largest number
+- Sum of digits of a number
+
+Day 5
+- Reverse words in a sentence
+- Count word frequency
+- Find longest word
+
+Day 6
+- Find missing number (1–N)
+- Move all zeros to end
+- Find common elements in two lists
+
+Day 7
+- Rotate list by K
+- First non-repeating character
+- Revision
+
+---------------------------------------------
+
+WEEK 2: DATA STRUCTURES & STRINGS (Day 8–14)
+
+Day 8
+- Flatten nested list
+- Find all pairs with sum = K
+
+Day 9
+- Balanced parentheses
+- Stack using list
+
+Day 10
+- Longest substring without repeating characters
+- Remove adjacent duplicates
+
+Day 11
+- Group anagrams
+- Merge dictionaries (sum values)
+
+Day 12
+- String compression
+- String rotation check
+
+Day 13
+- Sort dictionary by values
+- Top K frequent elements
+
+Day 14
+- Weekly revision
+- Optimize old solution
+
+---------------------------------------------
+
+WEEK 3: RECURSION & DEEP LOGIC (Day 15–21)
+
+Day 15
+- Factorial (iterative & recursive)
+- Sum of digits (recursive)
+
+Day 16
+- Reverse list (recursive)
+- Palindrome (recursive)
+
+Day 17
+- Generate substrings
+- Generate subsets
+
+Day 18
+- Permutations of string
+- Power function without **
+
+Day 19
+- Binary search (recursive)
+- Check sorted list
+
+Day 20
+- Flatten nested dictionary
+- Roman numeral to integer
+
+Day 21
+- Recursion revision
+- Dry run problems
+
+---------------------------------------------
+
+WEEK 4: ADVANCED & REAL-WORLD (Day 22–30)
+
+Day 22
+- Custom map()
+- Custom filter()
+
+Day 23
+- Custom decorator
+- Function call counter
+
+Day 24
+- Context manager (class)
+- Context manager (generator)
+
+Day 25
+- Infinite Fibonacci generator
+- Shallow vs deep copy
+
+Day 26
+- LRU cache
+- Cache with TTL
+
+Day 27
+- Retry logic with backoff
+- Rate limiter
+
+Day 28
+- Queue using two stacks
+- Detect loop in linked list
+
+Day 29
+- Producer–Consumer problem
+- Custom exceptions
+
+Day 30
+- Small utility module
+- Refactor old programs
+
+---------------------------------------------
+
+📌 Golden Rules (Very Important)
+
+❌ Don’t jump to solutions
+
+❌ Don’t use shortcuts first
+
+✅ Handle edge cases
+
+✅ Write time & space complexity
+
+✅ Explain solution aloud (interview style)
