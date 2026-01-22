@@ -33,14 +33,12 @@ k_1 = 2
 nums_2 = ["apple", "banana", "apple", "orange", "banana", "apple"]
 k_2 = 1
 
-
 def top_k_frequent_element(nums, k):
     freq = {}
 
     for i in nums:
         freq[i] = freq.get(i,0)+1
 
-    print('freq.items(): ', freq.items())
     sorted_items = sorted(freq.items(), key=lambda item:item[1], reverse=True)
     return [i[0] for i in sorted_items[:k]]
 
