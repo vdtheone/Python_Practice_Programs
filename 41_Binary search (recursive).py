@@ -36,6 +36,7 @@ def binary_search_recursive(data, target, left, right, count=1):
         return binary_search_recursive(data, target, left+1, right, count=count+1)
     else:
         return binary_search_recursive(data, target, left, right-1, count=count+1)
+    
 print("Recursive Result = ", binary_search_recursive(data, 6, 0, 9))
 print("Recursive Result = ", binary_search_recursive(data, 2, 0, 9))
 print("Recursive Result = ", binary_search_recursive(data, 4, 0, 9))
