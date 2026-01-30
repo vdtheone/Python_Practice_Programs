@@ -10,4 +10,4 @@ def Sum_of_digits(input_number):
         input_number = input_number//10
     return new_num
 
-print(Sum_of_digits(input_number))
+print("Sum of digits = ",Sum_of_digits(input_number))
