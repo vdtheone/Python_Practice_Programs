@@ -17,6 +17,6 @@ else:
     print(f"{input_number} is Not Prime")
 
 def is_prime(n):
-    return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))
+    return n > 1 and all(n % i != 0 for i in range(2, n))
 
-print(is_prime(23))
+print(f"{input_number} is Prime" if is_prime(input_number) else f"{input_number} is Not Prime")
