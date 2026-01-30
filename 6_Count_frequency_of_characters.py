@@ -7,6 +7,6 @@ for i in data:
     if i in counter:
         counter[i] = counter.get(i) + 1
     else:
-        counter[i] = counter.get(i, 1)
+        counter[i] = 1
 
 print("frequency of characters - ", counter)
