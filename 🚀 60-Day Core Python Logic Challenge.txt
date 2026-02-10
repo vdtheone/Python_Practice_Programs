@@ -153,6 +153,146 @@ Day 30
 
 ---------------------------------------------
 
+WEEK 5: ADVANCED LOGIC & EDGE CASES (Day 31–37)
+
+Day 31
+- Check if two strings are anagrams
+- Find duplicate elements in a list
+- Count occurrences without using collections
+
+Day 32
+- Find longest palindromic substring
+- Check if a number is Armstrong
+
+Day 33
+- Find intersection of two lists
+- Find union of two lists
+- Remove elements appearing more than twice
+
+Day 34
+- Find minimum window substring
+- Check if an array is monotonic
+
+Day 35
+- Find majority element in a list
+- Rearrange array (positives and negatives)
+
+Day 36
+- Find longest increasing subsequence (basic)
+- Count pairs with difference = K
+
+Day 37
+- Revision
+- Optimize two slow solutions
+
+---------------------------------------------
+
+WEEK 6: DATA STRUCTURES IMPLEMENTATION (Day 38–44)
+
+Day 38
+- Implement stack with size limi
+- Implement queue using deque
+
+Day 39
+- Implement circular queue
+- Reverse stack using recursion
+
+Day 40
+- Implement linked list
+- Insert and delete nodes
+
+Day 41
+- Reverse linked list
+- Find middle element of linked list
+
+Day 42
+- Merge two sorted linked lists
+- Detect and remove loop in linked list
+
+Day 43
+- Implement hash table (basic)
+- Handle collisions
+
+Day 44
+- Revision
+- Explain data structure logic in words
+
+---------------------------------------------
+
+WEEK 7: STRINGS, ARRAYS & SEARCHING (Day 45–51)
+
+Day 45
+- Validate IPv4 addres
+- Validate IPv6 address
+
+Count substrings with same start and end
+
+Day 46
+- Find longest common prefix
+- Check if string follows a pattern
+
+Day 47
+- Rotate matrix by 90 degrees
+- Transpose a matrix
+
+Day 48
+- Spiral traversal of matrix
+- Search element in sorted matrix
+
+Day 49
+- Merge overlapping intervals
+- Insert a new interval
+
+Day 50
+- Two Sum problem
+- Three Sum problem
+
+Day 51
+- Revision
+- Optimize matrix-based solutions
+
+---------------------------------------------
+
+WEEK 8: PYTHON INTERNALS & REAL-WORLD LOGIC (Day 52–60)
+
+Day 52
+- Implement custom enumerate
+- Implement custom zip()
+
+Day 53
+- Singleton pattern using decorator
+- Singleton pattern using class
+
+Day 54
+- Observer pattern (basic)
+- Callback system example
+
+Day 55
+- Thread-safe counter
+- Race condition example
+
+Day 56
+- Basic asyncio example
+- Compare synchronous vs asynchronous execution
+
+Day 57
+- Implement timeout decorator
+- Measure execution time of a function
+
+Day 58
+- Pagination logic
+- Offset vs cursor pagination
+
+Day 59
+- Data validation engine (rules-based)
+- Custom error messages
+
+Day 60
+- Build a small CLI utility
+- Refactor best 10 programs from Day 1–60
+
+---------------------------------------------
+
 📌 Golden Rules (Very Important)
 
 ❌ Don’t jump to solutions
