@@ -1,40 +1,54 @@
-# Find minimum window substring
+"""Minimum Window Substring (refactored).
 
-def minWindow(s: str, t: str) -> str:
+Provides `min_window(s, t)` which returns the smallest substring
+of `s` that contains all characters of `t` (including multiplicity).
+"""
+
+from collections import Counter, defaultdict
+from typing import Tuple
+
+
+def min_window(s: str, t: str) -> str:
+    """Return the minimum window substring of `s` containing all chars of `t`.
+
+    If no such window exists, returns an empty string.
+    """
     if not s or not t:
         return ""
 
-    dict_t = {}
-    for char in t:
-        dict_t[char] = dict_t.get(char, 0) + 1
-
+    dict_t = Counter(t)
     required = len(dict_t)
-    l, r = 0, 0
+
+    left = 0
+    right = 0
     formed = 0
-    window_counts = {}
-    ans = float("inf"), None, None
+    window_counts = defaultdict(int)
+    ans: Tuple[float, int, int] = (float("inf"), None, None)
 
-    while r < len(s):
-        character = s[r]
-        window_counts[character] = window_counts.get(character, 0) + 1
+    while right < len(s):
+        ch = s[right]
+        window_counts[ch] += 1
 
-        if character in dict_t and window_counts[character] == dict_t[character]:
+        if ch in dict_t and window_counts[ch] == dict_t[ch]:
             formed += 1
 
-        while l <= r and formed == required:
-            character = s[l]
+        while left <= right and formed == required:
+            ch = s[left]
 
-            if r - l + 1 < ans[0]:
-                ans = (r - l + 1, l, r)
+            if right - left + 1 < ans[0]:
+                ans = (right - left + 1, left, right)
 
-            window_counts[character] -= 1
-            if character in dict_t and window_counts[character] < dict_t[character]:
+            window_counts[ch] -= 1
+            if ch in dict_t and window_counts[ch] < dict_t[ch]:
                 formed -= 1
 
-            l += 1
+            left += 1
 
-        r += 1
+        right += 1
 
-    return "" if ans[0] == float("inf") else s[ans[1]:ans[2] + 1]
+    return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
 
-print(minWindow("ADOBECODEBANC", "ABC"))
+
+if __name__ == "__main__":
+    # simple verification
+    print(min_window("ADOBECODEBANC", "ABC"))
